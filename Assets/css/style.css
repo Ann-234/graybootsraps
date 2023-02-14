@@ -32,6 +32,11 @@
   color: #002db3;
 }
 
+#slider .carousel-inner .carousel-item {
+  background: url(/Assets/img/slider.svg);
+
+}
+
 
 /* info */
 #info{
@@ -51,6 +56,40 @@
   width: 40%;
   margin: 0 auto;
 }
+
+/* products */
+#products .card{
+  height: fit-content;
+
+}
+#products .card img{
+  height: 30vh;
+ 
+
+}
+
+#products .card .btn{
+  background: #002db3;
+  color: #fff;
+}
+#products .card:hover .btn{
+  color: black;
+}
+
+/* contact */
+#contact{
+  background: url(/Assets/img/forms.svg);
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+}
+
+/* footer */
+#foooter a{
+  color: #fff;
+}
+
 
 
 @media only screen and (max-width:520px){
